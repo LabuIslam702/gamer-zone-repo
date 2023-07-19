@@ -5,6 +5,7 @@
 body{
     font-size: 16px;
 }
+/* this is nav part */
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -25,21 +26,26 @@ body{
 }
 .nav-description ul li{
     list-style: none;
-    margin: 10px;
+    margin: 5px;
 }
 input{
     width: 150px;
-    height: 30px;
+    height: 20px;
     border-radius: 5px;
 }
-img{
+.img-part{
     width: 30px;
+    position: relative;
+   
 }
-gamer-title{
-    margin-left: 100px;
-    width: 30px;
+.img-part-text ul{
+    margin-left: 50px;
+    gap: 30px;
 }
+.img-part-text{
 
+    position: relative;
+}
 /* this is banner part */
 
 .play-color{
@@ -120,29 +126,36 @@ gamer-title{
     margin-right: 30px;
 }
 .play-img-container img{
-    width: 700px;
-    height: 500px;
-    padding: 20px;
+    width: 500px;
+    height: 400px;
+    margin-right: 20px;
+    
     
 }
 .heading-title{
+    width: 50%;
     text-align: center;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 50px;
+    /* margin-left: 150px; */
     
    
     }
-.play-img-containe .png-img{
-    width: 50px;
-    height: 50px;
+    .png-img{
+        width: 40px;
+        height: 30px;
+    }
+.play-img-container .png-img{
+    width: 50%;
+    height: 50%;
     position: relative;
     bottom: 100px;
     font-size: 4rem;
 }
 .heading-description{
-    width: 300px;
+    width: 50%;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 50px;
 }
 .no{
     color: #FF42A5;
@@ -216,14 +229,13 @@ img{
 
 /* This is image description part */
 .image-description-content{
-    display: flex;
-    grid-template-rows: repeat( 5, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
 }
 .content{
     display: flex;
     margin-bottom: 30px;
-    border: 1px solid gray;
     border-radius: 10px;
 
 }
