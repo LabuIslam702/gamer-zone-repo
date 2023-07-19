@@ -1,0 +1,110 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Barlow:ital@0;1&family=Open+Sans:wght@600&family=Work+Sans:wght@700;800&display=swap');
+}
+body{
+    font-size: 16px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    background: #FFF;
+}
+.g-color{
+  color: #FF42A5 ;
+}
+.nav-description ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icon{
+    width: 50px;
+    align-items: center;
+}
+.nav-description ul li{
+    list-style: none;
+    margin: 10px;
+}
+input{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+img{
+    width: 30px;
+}
+gamer-title{
+    margin-left: 100px;
+    width: 30px;
+}
+
+/* this is banner part */
+
+.play-color{
+   color: #8758F1 ;
+
+}
+.banner-title h2{
+    margin-left: 40px;
+    font-size: 3rem;
+}
+.banner-description{
+    margin-left:40px ;
+}
+.btn-primary{
+    border-radius: 5px;
+    margin-left: 50px;
+    padding-left: 20px;
+}
+.btn-primary .btn1{
+    border-radius: 8px;
+    color: white;
+    background: #FF42A5;
+    padding: 15px ;
+    border-radius: 48px;
+    gap: 10px;
+}
+.btn-primary .btn2{
+    padding: 15px ;
+    gap: 10px;
+    border-radius: 8px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: white;
+}
+.btn-primary .btn1 .btn2{
+    gap: 20px;
+}
+.img-container img{
+    width: 500px;
+    height: 400px;
+    margin-right: 50px;
+}
+ .banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    background: #FFF; 
+ }
+
+ /* <!-- online games funny video part --> */
+.online-title{
+    text-align: center;
+}
+.online-description{
+    text-align: center;
+}
+.online-img-container{
+    display: flex;
+   margin-left: 100px;
+   margin-right: 30px;
+}
+.online-img-container img{
+    width: 300px;
+    height:150 ;  
+    margin-left: 10px;
+}
+.online-img-container p{
+    font-size: 12px;
+}
+/* this is our third section */
