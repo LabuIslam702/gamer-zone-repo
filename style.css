@@ -207,6 +207,7 @@ input{
     justify-content: space-evenly;
     margin-left: 200px;
     margin-right: 200px;
+    gap: 30px;
 }
 .nav-games-container ul li{
     list-style: none;
@@ -251,4 +252,12 @@ img{
 }
 .content p{
     width: 30px;
+}
+.terms-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.terms-container ul{
+    gap: 30px;
 }
